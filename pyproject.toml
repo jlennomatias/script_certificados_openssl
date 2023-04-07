@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "certification-automation"
+version = "0.1.0"
+description = ""
+authors = ["jlennomatias <john.x12@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "certification_automation"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pycryptodome = "^3.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
